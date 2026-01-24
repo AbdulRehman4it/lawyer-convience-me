@@ -1,75 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body class="bg-[#171717]">
-    
-    <nav id="navbar" class="w-full transition-colors duration-300">
-  <!-- TOP BAR -->
-  <div id="navbar-top" class="flex justify-between items-center 2xl:px-20 lg:px-10 px-5 xl:pt-8 pt-5">
-    <!-- Logo -->
-    <div>
-      <img src="./assets/img/Logo.png" alt="Logo" class="w-32">
-    </div>
 
-    <!-- Menu (Desktop) -->
-    <div class="hidden lg:flex">
-      <ul class="flex 2xl:space-x-10 xl:space-x-8 space-x-5 font-light 2xl:text-lg xl:text-base lg:text-sm items-center">
-        <li><a href="./index.html" class="text-white hover:text-[#F8D100]">Home</a></li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="bg-[#171717]">
+
+  <nav id="navbar" class="w-full transition-colors duration-300">
+    <!-- TOP BAR -->
+    <div id="navbar-top" class="flex justify-between items-center 2xl:px-20 lg:px-10 px-5 xl:pt-8 pt-5">
+      <!-- Logo -->
+      <div>
+        <img src="./assets/img/Logo.png" alt="Logo" class="w-32">
+      </div>
+
+      <!-- Menu (Desktop) -->
+      <div class="hidden lg:flex">
+        <ul
+          class="flex 2xl:space-x-10 xl:space-x-8 space-x-5 font-light 2xl:text-lg xl:text-base lg:text-sm items-center">
+          <li><a href="./index.html" class="text-white hover:text-[#F8D100]">Home</a></li>
 
           <!-- About Dropdown Desktop -->
-        <li class="relative group z-50">
+          <li class="relative group z-50">
             <a href="./Aktuelles.html">
-          <button class="flex items-center gap-1 text-white hover:text-[#F8D100]">
-            Aktuelles
-              <i class="fa-solid fa-chevron-down text-sm pl-1"></i>
-          </button>
-          </a>
-          <ul class="absolute left-0 bg-white shadow-lg rounded-lg hidden group-hover:block w-52">
-            <li><a href="./Aktuelles.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Standpunkte der AWZ</a></li>
-            <li><a href="./urteilsbesprechungen.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Urteilsbesprechungen</a></li>
-            <li><a href="./rechtsvorschriften.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Rechtsvorschriften</a></li>
-              <li><a href="./veranstaltungen.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Veranstaltungen</a></li>
-            <li><a href="./Ausden.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Aus den Medien</a></li>
-          </ul>
-        </li>
+              <button class="flex items-center gap-1 text-white hover:text-[#F8D100]">
+                Aktuelles
+                <i class="fa-solid fa-chevron-down text-sm pl-1"></i>
+              </button>
+            </a>
+            <ul class="absolute left-0 bg-white shadow-lg rounded-lg hidden group-hover:block w-52">
+              <li><a href="./Aktuelles.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Standpunkte der
+                  AWZ</a></li>
+              <li><a href="./urteilsbesprechungen.html"
+                  class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Urteilsbesprechungen</a></li>
+              <li><a href="./rechtsvorschriften.html"
+                  class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Rechtsvorschriften</a></li>
+              <li><a href="./veranstaltungen.html"
+                  class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Veranstaltungen</a></li>
+              <li><a href="./Ausden.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Aus den Medien</a></li>
+            </ul>
+          </li>
 
-        <!-- Services Dropdown Desktop -->
-        <li class="relative group z-50">
+          <!-- Services Dropdown Desktop -->
+          <li class="relative group z-50">
             <a href="./themenfelder.html">
-          <button class="flex items-center gap-1 hover:text-[#F8D100] text-white">
-            Themenfelder
-           <i class="fa-solid fa-chevron-down text-sm pl-1"></i>
-          </button>
-          </a>
-          <ul class="absolute left-0 bg-white shadow-lg rounded-lg hidden group-hover:block w-60">
-           <li><a href="./themenfelder.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg ">Arbeitnehmerüberlassung</a></li>
-            <li><a href="./werkvertrag.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Werkvertrag</a></li>
-            <li><a href="./zoll.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Zoll</a></li>
-             <li><a href="./AEntG.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg ">Mindestlöhne nach dem AEntG</a></li>
-            <li><a href="./MiLog.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Mindestlöhne nach dem MiLog</a></li>
-            <li><a href="./wirtschaftsstrafrecht.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Wirtschaftsstrafrecht</a></li>
-             <li><a href="./audits.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg ">Audits / Betriebsbesichtigungen /Betriebsbesichtigungen</a></li>
-            <li><a href="./Outsourcing.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Gestaltung von Outsourcing-Werkverträgen</a></li>
-            <li><a href="./Gestaltung .html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Gestaltung von Arbeitsverträgen</a></li>
-            <li><a href="./solo.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Solo-Selbständige</a></li>
-          </ul>
-        </li>
-        <li><a href="./seminare.html" class="text-white hover:text-[#F8D100]">Seminare</a></li>
-        <li><a href="./Veröffentlichungen.html" class="text-white hover:text-[#F8D100] nav-link active">Veröffentlichungen</a></li>
-        <!-- <li><a href="" class="text-white hover:text-[#F8D100]">Impressum</a></li> -->
-      </ul>
-    </div>
+              <button class="flex items-center gap-1 hover:text-[#F8D100] text-white">
+                Themenfelder
+                <i class="fa-solid fa-chevron-down text-sm pl-1"></i>
+              </button>
+            </a>
+            <ul class="absolute left-0 bg-white shadow-lg rounded-lg hidden group-hover:block w-60">
+              <li><a href="./themenfelder.html"
+                  class="block px-4 py-2 hover:bg-gray-100 rounded-lg ">Arbeitnehmerüberlassung</a></li>
+              <li><a href="./werkvertrag.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Werkvertrag</a></li>
+              <li><a href="./zoll.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Zoll</a></li>
+              <li><a href="./AEntG.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg ">Mindestlöhne nach dem
+                  AEntG</a></li>
+              <li><a href="./MiLog.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Mindestlöhne nach dem
+                  MiLog</a></li>
+              <li><a href="./wirtschaftsstrafrecht.html"
+                  class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Wirtschaftsstrafrecht</a></li>
+              <li><a href="./audits.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg ">Audits /
+                  Betriebsbesichtigungen /Betriebsbesichtigungen</a></li>
+              <li><a href="./Outsourcing.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Gestaltung von
+                  Outsourcing-Werkverträgen</a></li>
+              <li><a href="./Gestaltung .html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Gestaltung von
+                  Arbeitsverträgen</a></li>
+              <li><a href="./solo.html" class="block px-4 py-2 hover:bg-gray-100 rounded-lg">Solo-Selbständige</a></li>
+            </ul>
+          </li>
+          <li><a href="./seminare.html" class="text-white hover:text-[#F8D100]">Seminare</a></li>
+          <li><a href="./Veröffentlichungen.html"
+              class="text-white hover:text-[#F8D100] nav-link active">Veröffentlichungen</a></li>
+          <!-- <li><a href="" class="text-white hover:text-[#F8D100]">Impressum</a></li> -->
+        </ul>
+      </div>
 
-    <!-- Contact + Search (Desktop) -->
-    <div class="hidden lg:block">
-      <div class="flex gap-5">
-        <!-- Search Bar -->
-        <!-- <div class="relative xl:w-40 2xl:w-72">
+      <!-- Contact + Search (Desktop) -->
+      <div class="hidden lg:block">
+        <div class="flex gap-5">
+          <!-- Search Bar -->
+          <!-- <div class="relative xl:w-40 2xl:w-72">
           <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-white">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                  viewBox="0 0 24 24" stroke-width="1.5"
@@ -81,528 +96,3696 @@
           <input type="text" placeholder="Suchen"
                  class="w-full pl-10 pr-4 py-2 text-white bg-transparent border-2 border-white border-dashed rounded-full focus:outline-none placeholder-white" />
         </div> -->
-       
-        <button onclick="openModal()" class="uppercase bg-transparent py-2 px-10 text-base 2xl:text-lg font-bold text-white rounded-full border-2 border-[#F8D100] border-dashed">Kontakt</button>
-       
+
+          <button onclick="openModal()"
+            class="uppercase bg-transparent py-2 px-10 text-base 2xl:text-lg font-bold text-white rounded-full border-2 border-[#F8D100] border-dashed">Kontakt</button>
+
+        </div>
+      </div>
+
+      <!-- Hamburger Menu (Mobile) -->
+      <div class="lg:hidden z-50">
+        <button id="menu-btn" class="relative w-10 h-10 focus:outline-none">
+          <span class="sr-only">Toggle Menu</span>
+          <div class="hamburger-lines">
+            <span class="absolute bg-white w-8 h-[3px] top-2 left-1 transition-all duration-300 origin-top-left"></span>
+            <span class="absolute bg-white w-8 h-[3px] top-4 left-1 transition-all"></span>
+            <span
+              class="absolute bg-white w-8 h-[3px] top-6 left-1 transition-all duration-300 origin-bottom-left"></span>
+          </div>
+        </button>
       </div>
     </div>
 
-    <!-- Hamburger Menu (Mobile) -->
-    <div class="lg:hidden z-50">
-      <button id="menu-btn" class="relative w-10 h-10 focus:outline-none">
-        <span class="sr-only">Toggle Menu</span>
-        <div class="hamburger-lines">
-          <span class="absolute bg-white w-8 h-[3px] top-2 left-1 transition-all duration-300 origin-top-left"></span>
-          <span class="absolute bg-white w-8 h-[3px] top-4 left-1 transition-all"></span>
-          <span class="absolute bg-white w-8 h-[3px] top-6 left-1 transition-all duration-300 origin-bottom-left"></span>
-        </div>
-      </button>
-    </div>
-  </div>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="lg:hidden hidden px-5 pb-5 bg-[#171717]">
+      <ul class="flex flex-col justify-center items-center space-y-4 font-light text-white py-10">
+        <li><a href="./index.html" class="block">Home</a></li>
 
-  <!-- Mobile Menu -->
-  <div id="mobile-menu" class="lg:hidden hidden px-5 pb-5 bg-[#171717]">
-    <ul class="flex flex-col justify-center items-center space-y-4 font-light text-white py-10">
-      <li><a href="./index.html" class="block">Home</a></li>
+        <!-- About Mobile Dropdown -->
+        <li class="w-full">
 
-      <!-- About Mobile Dropdown -->
-     <li class="w-full">
-        
-        <button class="flex justify-center items-center w-full hover:text-white transition" onclick="toggleDropdown('about-dropdown', this)">
-          Aktuelles
-     <i class="fa-solid fa-chevron-down text-sm pl-1"></i>
-        </button>
-        
-        <ul id="about-dropdown" class="hidden mt-2 lg:pl-4 space-y-2 items-center text-white text-center">
-         <li><a href="./Aktuelles.html" class="block transition text-white">Standpunkte der AWZ</a></li>
+          <button class="flex justify-center items-center w-full hover:text-white transition"
+            onclick="toggleDropdown('about-dropdown', this)">
+            Aktuelles
+            <i class="fa-solid fa-chevron-down text-sm pl-1"></i>
+          </button>
+
+          <ul id="about-dropdown" class="hidden mt-2 lg:pl-4 space-y-2 items-center text-white text-center">
+            <li><a href="./Aktuelles.html" class="block transition text-white">Standpunkte der AWZ</a></li>
             <li><a href="./urteilsbesprechungen.html" class="block transition text-white">Urteilsbesprechungen</a></li>
             <li><a href="./rechtsvorschriften.html" class="block transition text-white">Rechtsvorschriften</a></li>
-              <li><a href="./veranstaltungen.html" class="block transition text-white">Veranstaltungen</a></li>
+            <li><a href="./veranstaltungen.html" class="block transition text-white">Veranstaltungen</a></li>
             <li><a href="./Ausden.html" class="block transition text-white">Aus den Medien</a></li>
-        </ul>
-      </li>
+          </ul>
+        </li>
 
-      <!-- Services Mobile Dropdown -->
-      <li class="w-full">
-        
-        <button class="flex justify-center items-center w-full hover:text-white transition" onclick="toggleDropdown('services-dropdown', this)">
-          Themenfelder
-         <i class="fa-solid fa-chevron-down text-sm pl-1"></i>
-        </button>
-        
-        <ul id="services-dropdown" class="hidden mt-2 lg:pl-4 space-y-2 text-center">
-          
-          <li><a href="./themenfelder.html" class="block hover:text-white transition">Arbeitnehmerüberlassung</a></li>
+        <!-- Services Mobile Dropdown -->
+        <li class="w-full">
+
+          <button class="flex justify-center items-center w-full hover:text-white transition"
+            onclick="toggleDropdown('services-dropdown', this)">
+            Themenfelder
+            <i class="fa-solid fa-chevron-down text-sm pl-1"></i>
+          </button>
+
+          <ul id="services-dropdown" class="hidden mt-2 lg:pl-4 space-y-2 text-center">
+
+            <li><a href="./themenfelder.html" class="block hover:text-white transition">Arbeitnehmerüberlassung</a></li>
             <li><a href="./werkvertrag.html" class="block hover:text-white transition">Werkvertrag</a></li>
             <li><a href="./zoll.html" class="block hover:text-white transition">Zoll</a></li>
-             <li><a href="./AEntG.html" class="block hover:text-white transition ">Mindestlöhne nach dem AEntG</a></li>
+            <li><a href="./AEntG.html" class="block hover:text-white transition ">Mindestlöhne nach dem AEntG</a></li>
             <li><a href="./MiLog.html" class="block hover:text-white transition">Mindestlöhne nach dem MiLog</a></li>
-            <li><a href="./wirtschaftsstrafrecht.html" class="block hover:text-white transition">Wirtschaftsstrafrecht</a></li>
-             <li><a href="./audits.html" class="block hover:text-white transition ">Audits / Betriebsbesichtigungen /Betriebsbesichtigungen</a></li>
-            <li><a href="./Outsourcing.html" class="block hover:text-white transition">Gestaltung von Outsourcing-Werkverträgen</a></li>
-            <li><a href="./Gestaltung .html" class="block hover:text-white transition">Gestaltung von Arbeitsverträgen</a></li>
+            <li><a href="./wirtschaftsstrafrecht.html"
+                class="block hover:text-white transition">Wirtschaftsstrafrecht</a></li>
+            <li><a href="./audits.html" class="block hover:text-white transition ">Audits / Betriebsbesichtigungen
+                /Betriebsbesichtigungen</a></li>
+            <li><a href="./Outsourcing.html" class="block hover:text-white transition">Gestaltung von
+                Outsourcing-Werkverträgen</a></li>
+            <li><a href="./Gestaltung .html" class="block hover:text-white transition">Gestaltung von
+                Arbeitsverträgen</a></li>
             <li><a href="./solo.html" class="block hover:text-white transition">Solo-Selbständige</a></li>
-        </ul>
-      </li>
-      <li><a href="./seminare.html">Seminare</a></li>
-      <li><a href="./Veröffentlichungen.html">Veröffentlichungen</a></li>
-      <!-- <li><a href="#">Impressum</a></li> -->
-      <li>
-        
-        <button onclick="openModal()" class="uppercase bg-[#121212] py-2 px-10 text-white rounded-full border-2 border-[#F8D100] border-dashed">Kontakt</button>
-        
-      </li>
-    </ul>
-  </div>
+          </ul>
+        </li>
+        <li><a href="./seminare.html">Seminare</a></li>
+        <li><a href="./Veröffentlichungen.html">Veröffentlichungen</a></li>
+        <!-- <li><a href="#">Impressum</a></li> -->
+        <li>
 
-  <div class="2xl:px-20 lg:px-10 px-5 pt-4">
-    <hr class="border-[#757575]">
-  </div>
-</nav>
+          <button onclick="openModal()"
+            class="uppercase bg-[#121212] py-2 px-10 text-white rounded-full border-2 border-[#F8D100] border-dashed">Kontakt</button>
+
+        </li>
+      </ul>
+    </div>
+
+    <div class="2xl:px-20 lg:px-10 px-5 pt-4">
+      <hr class="border-[#757575]">
+    </div>
+  </nav>
 
 
-<section class="2xl:px-20 lg:px-10 px-5">
+  <section class="2xl:px-20 lg:px-10 px-5">
     <div class="2xl:pt-36 lg:pt-16 pt-10">
-        <h1 class="text-[#F8D100] text-3xl lg:text-5xl 2xl:text-[78px] 2xl:leading-[90px] xl:leading-[75px] lg:leading-[60px] leading-9 font-bold text-center">
-            Veröffentlichungen und Aufsätze
-        </h1>
-    </div>
-
-
-    <div class="grid md:grid-cols-2 grid-cols-1 gap-5 xl:pt-24 pt-12">
-
-    <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
-        <div class="flex justify-between">
-            <div>
-            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">234</h1>
-            </div>
-            <div>
-                <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
-                <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">BD 1/2023</h1>
-            </div>
-        </div>
-
-        <p class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">The ECJ sets standards (ECJ of 15.12.22, C-311/21) – Do the collective agreements for temporary employment comply with the equal pay requirement?</p>
-
-        <div class="flex gap-4 xl:pt-28 pt-16">
-            <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Christian Andorfer</p>
-            <div>
-                <hr class="border-[#757575]">
-            </div>
-        </div>
-    </div>
-
-    <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
-        <div class="flex justify-between">
-            <div>
-            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">234</h1>
-            </div>
-            <div>
-                <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
-                <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">BD 1/2023</h1>
-            </div>
-        </div>
-
-        <p class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6 ">The ECJ sets standards (ECJ of 15.12.22, C-311/21) – Do the collective agreements for temporary employment comply with the equal pay requirement?</p>
-
-        <div class="flex gap-4 xl:pt-28 pt-16">
-            <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Christian Andorfer</p>
-            <div>
-                <hr class="border-[#757575]">
-            </div>
-        </div>
-    </div>
-
-    <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
-        <div class="flex justify-between">
-            <div>
-            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">234</h1>
-            </div>
-            <div>
-                <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
-                <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">BD 1/2023</h1>
-            </div>
-        </div>
-
-        <p class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">The ECJ sets standards (ECJ of 15.12.22, C-311/21) – Do the collective agreements for temporary employment comply with the equal pay requirement?</p>
-
-        <div class="flex gap-4 xl:pt-28 pt-16">
-            <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Christian Andorfer</p>
-            <div>
-                <hr class="border-[#757575]">
-            </div>
-        </div>
-    </div>
-
-    <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
-        <div class="flex justify-between">
-            <div>
-            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">234</h1>
-            </div>
-            <div>
-                <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
-                <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">BD 1/2023</h1>
-            </div>
-        </div>
-
-        <p class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">The ECJ sets standards (ECJ of 15.12.22, C-311/21) – Do the collective agreements for temporary employment comply with the equal pay requirement?</p>
-
-        <div class="flex gap-4 xl:pt-28 pt-16">
-            <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Christian Andorfer</p>
-            <div>
-                <hr class="border-[#757575]">
-            </div>
-        </div>
-    </div>
-
-    <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
-        <div class="flex justify-between">
-            <div>
-            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">234</h1>
-            </div>
-            <div>
-                <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
-                <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">BD 1/2023</h1>
-            </div>
-        </div>
-
-        <p class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">The ECJ sets standards (ECJ of 15.12.22, C-311/21) – Do the collective agreements for temporary employment comply with the equal pay requirement?</p>
-
-        <div class="flex gap-4 xl:pt-28 pt-16">
-            <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Christian Andorfer</p>
-            <div>
-                <hr class="border-[#757575]">
-            </div>
-        </div>
-    </div>
-
-    <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
-        <div class="flex justify-between">
-            <div>
-            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">234</h1>
-            </div>
-            <div>
-                <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
-                <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">BD 1/2023</h1>
-            </div>
-        </div>
-
-        <p class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">The ECJ sets standards (ECJ of 15.12.22, C-311/21) – Do the collective agreements for temporary employment comply with the equal pay requirement?</p>
-
-        <div class="flex gap-4 xl:pt-28 pt-16">
-            <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Christian Andorfer</p>
-            <div>
-                <hr class="border-[#757575]">
-            </div>
-        </div>
-    </div>
-
-    <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
-        <div class="flex justify-between">
-            <div>
-            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">234</h1>
-            </div>
-            <div>
-                <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
-                <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">BD 1/2023</h1>
-            </div>
-        </div>
-
-        <p class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">The ECJ sets standards (ECJ of 15.12.22, C-311/21) – Do the collective agreements for temporary employment comply with the equal pay requirement?</p>
-
-        <div class="flex gap-4 xl:pt-28 pt-16">
-            <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Christian Andorfer</p>
-            <div>
-                <hr class="border-[#757575]">
-            </div>
-        </div>
-    </div>
-
-    <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
-        <div class="flex justify-between">
-            <div>
-            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">234</h1>
-            </div>
-            <div>
-                <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
-                <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">BD 1/2023</h1>
-            </div>
-        </div>
-
-        <p class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">The ECJ sets standards (ECJ of 15.12.22, C-311/21) – Do the collective agreements for temporary employment comply with the equal pay requirement?</p>
-
-        <div class="flex gap-4 xl:pt-28 pt-16">
-            <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Christian Andorfer</p>
-            <div>
-                <hr class="border-[#757575]">
-            </div>
-        </div>
-    </div>
-
-    </div>
-</section>
-
-
-<!-- footer  -->
-<footer class="bg-[#202020] 2xl:mt-48 lg:mt-20 mt-10">
-  <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 lg:gap-10 gap-5 2xl:px-20 lg:px-10 px-5 2xl:py-20 py-10">
-    <!-- Logo & Contact -->
-    <div>
-      <div class="flex justify-center md:justify-start">
-      <img src="./assets/img/footerlogo.png" alt="AWZ Logo" class="mb-6 w-32">
-      </div>
-      <div class="space-y-2 2xl:pt-10 pt-5">
-       
-      <div class="flex items-center gap-5">
-        <div class="flex items-center gap-5">
-        <i class="fa-solid fa-phone-volume bg-[#F8D100] 2xl:p-3 p-2 rounded-md"></i>
-        <p class="text-white text-sm">06221 338630</p>
-        </div>
-
-        <div class="flex items-center gap-5">
-        <i class="fa-solid fa-calendar-week bg-[#F8D100] 2xl:p-3 p-2 rounded-md"></i>
-        <p class="text-white text-sm">Sep 06, 2024</p>
-        </div>
-      </div>
-      <div class="flex items-center gap-5">
-        <i class="fa-solid fa-envelope bg-[#F8D100] 2xl:p-3 p-2 rounded-md"></i>
-        <p class="text-white text-sm uppercase">info@werkvertrag-zeitarbeit.de</p>
-      </div>
-      <div class="flex items-center gap-5">
-        <i class="fa-solid fa-location-dot bg-[#F8D100] 2xl:py-3 2xl:px-[14px] py-2 px-[10px] rounded-md"></i>
-        <p class="text-white text-sm uppercase">Sofienstraße 21, 69115 Heidelberg</p>
-      </div>
-
-      </div>
-    </div>
-
-    <div class="flex gap-10 2xl:gap-20 pt-5 md:pt-0">
-    <!-- Quick Links -->
-    <div>
-      <h2 class="font-bold mb-4 xl:text-base text-sm text-white ">QUICK LINK</h2>
-      <ul class="space-y-3 text-[#757575] 2xl:text-sm text-xs">
-        <li><a href="./index.html" class="hover:text-white hover:underline">Home</a></li>
-        <li><a href="./Aktuelles.html" class="hover:text-white hover:underline">Aktuelles</a></li>
-        <li><a href="./themenfelder.html" class="hover:text-white hover:underline">Themenfelder</a></li>
-        <li><a href="./seminare.html" class="hover:text-white hover:underline">Seminare</a></li>
-        <li><a href="./Veröffentlichungen.html" class="hover:text-white hover:underline">Veröffentlichungen</a></li>
-        <li><a href="./impressem.html" class="hover:text-white hover:underline">Impressum</a></li>
-      </ul>
-    </div>
-
-    <!-- Social -->
-    <div>
-      <h2 class="font-bold mb-4 xl:text-base text-sm text-white">FOLGEN SIE UNS</h2>
-      <ul class="space-y-3 text-[#757575] 2xl:text-sm text-xs">
-        <li><a href="#" class="hover:text-white hover:underline">Facebook</a></li>
-        <li><a href="#" class="hover:text-white hover:underline">Twitter</a></li>
-        <li><a href="#" class="hover:text-white hover:underline">LinkedIn</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <h3 class="font-bold mb-4 xl:text-base text-sm text-white">SUPPORT</h3>
-      <ul class="space-y-3 text-[#757575] 2xl:text-sm text-xs">
-        <li><a href="#" class="hover:text-white hover:underline">Kontaktiere uns</a></li>
-      </ul>
-    </div>
-
-    </div>
-
-    <!-- Newsletter -->
-    <div class="pt-5 lg:pt-0">
-      <h1 class="2xl:text-4xl lg:text-2xl text-lg font-bold text-white">
-        Abonnieren Sie unseren Newsletter und bleiben Sie über Seminare und Veranstaltungen informiert.
-        
+      <h1
+        class="text-[#F8D100] text-3xl lg:text-5xl 2xl:text-[78px] 2xl:leading-[90px] xl:leading-[75px] lg:leading-[60px] leading-9 font-bold text-center">
+        Veröffentlichungen und Aufsätze
       </h1>
-      <form class="mt-6 space-y-4">
-        <input 
-          type="email" 
-          placeholder="E-Mail-Adresse (ohne Punkte dahinter)" 
-          class="w-full bg-[#171717] text-[#757575] px-4 py-3 rounded-full outline-none"
-        >
-        <div >
-        <button class="bg-white w-full py-2 px-10 text-[#131313] 2xl:text-lg text-sm font-bold rounded-full border-2 border-[#131313] border-dashed uppercase">abonnieren</button>
+    </div>
+
+    <!-- grids col blocks -->
+    <div class="grid md:grid-cols-2 grid-cols-1 gap-5 xl:pt-24 pt-12">
+      <!-- block 1  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">235</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">BD 1/2023</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Der EuGH setzt Maßstäbe (EuGH vom 15.12.22, C-311/21) – Halten die Tarifverträge der Zeitarbeit dem
+          Equal-Pay-Gebot stand?</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
       </div>
-      </form>
+      <!-- block 2  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">234</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">AuA 1/2021</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6 ">
+          Verbot von Werkverträgen – Neuregelung in der Fleischindustrie verfassungswidrig?</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal,
+            Heiko Greulich, Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 3  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">233</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">EWS 3/2021</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Verbot von Werkverträgen und Leiharbeit durch Arbeitsschutzgesetz Verbot gegen Europarecht</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Christian Andorfer u. Tseja Tsankova
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 4  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">231</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Zeitschrift für Rechtspolitik 4/2021
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Privatisierung – Eine streitbare Überlegung</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Christian Andorfer u. Heiko E.
+            Greulich</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 5  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">230</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">NZA Editorial</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Alles hat ein Ende nur die Wurst hat zwei!?</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 6  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">229</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Arbeit und Arbeitsrecht 1/2021</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Verbot des Werkvertrags. Regelung in der Fleischwirtschaft verfassungsrechtlich gerechtfertigt?</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Heiko E. Greulich u. Dr. Frank
+            Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 7  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">228</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">eigene Publikation</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Soziale Arbeit. Was uns bewegt. Kleine Beiträge einer Anwaltskanzlei zur gesellschaftspolitischen
+          Auseinandersetzung</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 8  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">227</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">ZESAR 11–12/2020</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Hält die Entsendebescheinigung noch? Anmerkung zu dem Urteil des Europäischen Gerichtshofs vom 2. April 2020
+          in den Rechtssachen C-370/17 und C 37/18</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+
+      <!-- block 9  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">226</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">eigene Publikation</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Gutachten zur Verfassungsmäßigkeit des Entwurfs eines Gesetzes zur Verbesserung des Vollzugs im Arbeitsschutz
+          (Arbeitsschutzkontrollgesetz)</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Christian Andorfer u. Heiko E.
+            Greulich</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 10  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">225</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">eigene Publikation</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Ist das Verbot des Werkvertrages in der Fleischwirtschaft verfassungsrechtlich gerechtfertigt?</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 11  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">224</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung 8/2020</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Zurückweisung der Pauschalabwertung von Werkverträgen durch den Fraktionsvorsitzenden der SPD im Bundestag
+          Herrn Doktor Rolf Mützenich Oder: Mützenich versus Nahles</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 12  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">223</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">FleischMagazin 7-8/2020</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Geplantes Verbot widerspricht EU-Recht</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 13  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">222</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung 6/2020</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Stellungnahme der Arbeitsgemeinschaft Werkverträge und Zeitarbeit (AWZ) zu den Werkverträgen in der
+          Fleischbranche</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 14  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">221</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung 4/2020</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Neues von den Datenschutzaufsichtsbehörden – Datenschutz – rechtliche Probleme beim Personalleasing und
+          aktuelle Bußgeldpraxis</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Dr. jur. Kevin Marschall u.
+            Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 15  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">220</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Sonderdruck aus der Fleischwirtschaft
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Es gibt keine rechtsfreien Räume – Eine Antwort der AG Werkverträge und Zeitarbeit auf die Aktivitäten des
+          ehemaligen Prälaten Peter Kossen</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 16  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">219</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischwirtschaft 03/2020</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          „Gleicher Lohn für gleiche Arbeit am gleichen Ort“. Zu den Auswirkungen der neuen Entsenderichtlinie (EU)
+          2018/957</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 17  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">218</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung 1/2020</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Kann bei arbeitsrechtlichen Verstößen die Erlaubnis entzogen werden? – LSG Niedersachsen-Bremen: Beschluss vom
+          17.06.2019 – L 11 AL 27/19 B ER</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Heiko E. Greulich u. Christian
+            Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 18  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">217</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">eigene Publikation</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Werkverträge in der Fleischwirtschaft – Eine Ehrenrettung</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 19  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">216</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">ZESAR 12/2019</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Zur lückenlosen Geltung der sozialen Schutzwirkung des EU-Recht – Anmerkung zum Urteil des EuGH vom 8. Mai
+          2019, EuGH C-631/17</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 20  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">215</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">eigene Publikation</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Es gibt keine rechtsfreien Räume – Eine Antwort der AG Werkverträge und Zeitarbeit auf die Aktivitäten des
+          ehemaligen Prälaten Peter Kossen</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 21  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">214</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">eigene Publikation</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Bedenken gegenüber dem Statusfeststellungsverfahren nach § 7a SGB IV – Zur Befangenheit der Deutschen
+          Rentenversicherung Bund</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            Dr. Timo Trasch</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 22  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">213</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischwirtschaft / 12.2019 / S. 12-15
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Es gibt keine rechtsfreien Räume – Eine Antwort der AG Werkverträge und Zeitarbeit auf die Aktivitäten des
+          ehemaligen Prälaten Peter Kossen</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 23  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">212</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung / 9.2019 / S.
+              6-8</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Bedenken gegenüber dem Statusfeststellungsverfahren nach § 7a SGB IV – Zur Befangenheit der Deutschen
+          Rentenversicherung Bund</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            Dr. Timo Trasch</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 24  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">211</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung / 8.2019 / S.
+              10-12</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Master-Vendor-Modell aus Sicht des Datenschutzrechts – Was Master-Vendor beachten müssen</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Dr. jur. Kevin Marschall u.
+            Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 25  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">210</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Information des Deutschen
+              Arbeitgeberverbandes vom 17. Juni 2019</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Ist die Entsendebescheinigung ein Hindernis für die europäische Dienstleistungsfreiheit?</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Hansjürgen Tuengerthal u. Frank
+            Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 26  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">209</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung / 2.2019</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Werkvertrag anerkannt – Neue Gutachten widerlegen Vorurteile</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 27  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">208</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">NZWiSt / 2.2019 / S. 54-58</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Nachdrückliche Bedenken gegenüber dem Statusfeststellungsverfahren</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            Tseja Tsankova</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 28  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">207</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">NZWiSt / 2.2019 / S. 54-58</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Die Einziehung und die Widerspruchsfreiheit der Rechtsordnung – Zur Bestimmung der verbotenen Vermögensmehrung
+        </p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Christian Andorfer u. Florian Rimpf
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 29  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">206</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">eigene Publikation</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Werkvertrag anerkannt! Ein Bericht zu zwei für Werkvertragsunternehmen äußerst wichtige wissenschaftliche
+          Studien nebst kurzen Beiträgen zum Verfassungs-, Arbeits- und Sozialrecht aus der anwaltlichen Praxis</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 30  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">205</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Betriebsberater / 14.2019 / S.820-827
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Das Statusfeststellungsverfahren nach § 7a SGB IV auf dem Prüfstand – Die Schwächen des aktuellen Verfahrens
+          sowie mögliche Lösungsansätze</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Silke Becker u. Dr. Frank Hennecke
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 31  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">204</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">ZESAR / 3.2019 / S. 111-117</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Nationalstaatliche Souveränität und europäische Dienstleistungsfreiheit im Ausgleich</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Dr. Frank Hennecke u. Christian
+            Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 32  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">203</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung / 2.2019</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Werkvertrag anerkannt – Neue Gutachten widerlegen Vorurteile</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 33  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">202</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">eigene Publikation</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Arbeitsrecht und Bußgeld. Der Tatbestand von § 16 Absatz 1 Nr. 1 des Arbeitnehmerüberlassungsgesetzes:
+          Voraussetzungen, Reichweite und Grenzen.</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 34  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">201</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">eigene Publikation</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Rechtssicherheit und Freiheit im Europäischen Recht. Festgabe Carl Otto Lenz</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by AWZ</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 35  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">200</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">NZWiSt / 4.2018 / S. 121-125</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Ein Ende der Verjährung – Zur Verfassungsmäßigkeit des „Gesetzes zur Reform der strafrechtlichen
+          Vermögensabschöpfung“</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 36  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">199</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">eigene Publikation</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Das neue Arbeitnehmerüberlassungsgesetz. Zur Rechtslage nach der Neufassung vom §§ 1 Abs. 1, 9 Absatz 1 Nr. 1,
+          1a, 2 AÜG durch das Änderungsgesetz vom 21. Februar 2017. Problemlösungen für die Praxis</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 37  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">198</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung / 12.2017, S.
+              9</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          AÜG-Reform und Werkverträge – eine Zwischenbilanz</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 38  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">197</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">EWS / 5.2017 / S. 266-269</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Zur Bindungswirkung der Entsendebescheinigung: Auch das Geschäftsmodell des ausländischen Arbeitgebers wird
+          bescheinigt</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 39  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">196</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">NZWiSt / 10.2017 / S. 369-381</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Weitreichende Sanktionslücken auch im Arbeitsrecht durch die Entscheidung des Bundesverfassungsgerichts vom
+          21.9.2017?</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 40  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">195</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Betriebsberater / 40.2017 / S. I</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Vorsicht für in Österreich aktive Werkunternehmer: 22. Mio. Euro Strafe für einen Werkvertrag</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 41  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">194</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">IWW-Informationsdienste 2,3 und 4/2017
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Altenpflege – Vertrauen und Vorsicht</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 42  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">193</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung / 08.2017 / S.
+              12-13</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Was bescheinigt die E-101-Bescheinigung?</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 43  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">192</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Betriebsberater /29.2017 / S. 1652-1661
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Ist auch das neue Arbeitnehmerüberlassungsgesetz trotz der „Festhaltenserklärung“ verfassungswidrig?</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 44  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">191</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">eigene Publikation</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Werkvertrag und Arbeitnehmerüberlassung. Standpunkte</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 45  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">190</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">ZESAR / 2.22017, S. 63-68 u. 3.2017, S.
+              117-125</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Deutsches Arbeitsrecht im Ausland: Wirken die §§ 9, 10 AÜG grenzüberschreitend? (Teil I + II)</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 46  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">189</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung / 12.2016 / 5.
+              15</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Ein ereignisreiches Jahr</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 47  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">188</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">EWS / 06.2016 / S. 328-339</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Ausschluss der Auswirkungen der §§ 9 Nr. 1 und 10 Abs. 1 Satz 1 AÜG auf ausländische Arbeitsverträge bei
+          Einsatz ausländischer Arbeitnehmer in Deutschland aufgrund Art. 9 Rom I-VO</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            RA Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 48  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">187</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Betriebsberater / 47.2016 / S. 2875-2876
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          AÜG-Reform: Angemessene Regelung der Abgrenzung von Arbeitnehmerüberlassung und Werkvertrag</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 49  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">186</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">NZA / 21.2016 / S. 1309-1312</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          AÜG-Reform: Wahlrecht der Arbeitnehmer und Verfassungsrecht</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 50  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">185</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Erhard Erben / 01.2016 / S. 26-29</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Das „NORMAL-Arbeitsverhältnis“ in der digitalen Welt – Aufgabe des tradierten Konzepts der Berufe?</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 51  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">184</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Erhard Erben / 01.2016 / S. 26-29</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Gegen die Einschränkung des Werkvertrags</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 52  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">183</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Betriebsberater / 37.2016 / S. 2229-2236
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Auch ohne Blick in die Ferne: Externe – ein Leitfaden für den Einsatz von Fremdpersonal im eigenen Unternehmen
+        </p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            Silke Becker</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 53  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">182</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung / 2.2016 / S.
+              18-19</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          „Der rote Zettel“ – Zur Gesetzesnovelle des Bundesministeriums für Arbeit und Soziales vom 16.11.2015 und was
+          sonst noch kommen könnte</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Dr. Frank Hennecke u. Janine Geißer
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 54  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">181</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Betriebsberater / 32.2016 / S.1909-1913
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Neue Abgrenzung von Arbeitnehmerüberlassung und Werkvertrag?</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            RA Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 55  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">180</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Betriebsberater / 31.2016 / 1850-1856
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Unwirksamkeit des Arbeitsvertrags bei Arbeitnehmerüberlassung, „Berechtigte Zweifel an der
+          Verfassungskonformität der Rechtsfolgen der §§ 9 Nr. 1 u. 10 Abs. 1 S. 1 AÜG“</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            RA Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 56  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">179</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin / 06.2016 / S. 74-75</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Steine statt Brot</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            Dr. Timo Trasch</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 57  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">176</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Arbeit und Arbeitsrecht / 03.2016 / S.
+              158-160</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Zum Referentenentwurf des BMAS – Einführung von § 611a BGB Teil 2</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            RA Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 58  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">175</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Arbeit und Arbeitsrecht / 02.2016 / S.
+              94-97</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Zum Referentenentwurf des BMAS – Einführung von § 611a BGB Teil 1</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal u.
+            RA Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 59  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">174</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Betriebsberater / 31.2016 / 1850-1856
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Werkverträge und Zeitarbeit im Fokus der Politik (IHK-Vortrag)</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 60  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">173</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung / BD 01.2016 /
+              S. 17-19</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Überschreitung des Koalitionsvertrages durch den geplanten § 611a BGB (Teil 2)</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen
+            Tuengerthal/Christian Andorfer/Janine Geißer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 61  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">170</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung / BD 12.2015 /
+              S. 29-31</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Überschreitung des Koalitionsvertrages durch den geplanten § 611a BGB (Teil 1)</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen
+            Tuengerthal/Christian Andorfer/Janine Geißer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 62  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">169</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">NZWiSt / 12/2015 / S.445-453</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Straffreiheit für Altfälle unerlaubter Beschäftigung von Unionsbürgern! – Eine Entgegnung auf Mosbacher</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen
+            Tuengerthal/Michael Rothenhöfer/Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 63  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">168</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Verlag Frank Hennecke / herausgegeben
+              von: AWZ</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Zur Verfassungswidrigkeit der bisherigen §§ 9 Nr. 1 und 10 Absatz 1 Satz 1 Arbeitnehmerüberlassungsgesetz</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal/
+            Janine Geißer/Dr. Frank Hennecke</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 64  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">167</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Betriebs-Berater / BB 49.2015 / S.
+              2997-2999</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Mindestlohn bei der Logistik – zugleich Besprechung der Entscheidung des BVerfG vom 25.6.2015 – 1 BvR 555/15 –
+        </p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 65  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">166</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung / BD 11.2015
+              / S. 10-11</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Erster Überblick zu den Reformvorschlägen zur Regulierung von Werkverträgen und Zeitarbeit: BMAS schießt
+          über das Ziel hinaus</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            u. RA Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 66  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">165</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Compliance Berater / 12/2015 / S.
+              482-484</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Wenn der Zoll kommt – Zum Tätigwerden des Zolls bei der Abgrenzung von Werkverträgen und
+          Arbeitnehmerüberlassung –</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 67  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">163</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">EWS 4/2015 / S. 209-214</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Kommentar zum Urteil des EuGH v. 18.06.2015 – Rs. C-586/13 – „Martin Meat“</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            u. RA Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 68  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">162</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin 06. 2015 / 01.06.2015 /
+              S. 64-65</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Werkvertrag oder Arbeitnehmerüberlassung – Gegenwind aus Brüssel für geplante Einschränkungen des
+          Werkvertrags?</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by RA Michael Rothenhöfer u. RA
+            Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 69  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">161</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">FleischWirtschaft 06.2015 / 01.06.2015
+              / S. 39-40</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Mindestlohn – Fallstricke in der Praxis vermeiden Die wichtigsten Fragen zum Thema Branchenmindestlohn für
+          Auftraggeber</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by RA Michael Rothenhöfer u. RA
+            Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 70  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">160</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung / BD 05.2015
+              / 01.05.2015 / S. 15-16</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Mindestlöhne und Geltungsbereiche für die Fleischbranche – Die Mindestlöhne in der Fleischwirtschaft</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by RA Michael Rothenhöfer u. RA
+            Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 71  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">159</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Betriebs-Berater / BB 21.2015 /
+              28.05.2015 / S. 1269-1275</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Werkvertrag: Fiktion, Vermutung und Verfassung</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Dr. Frank Hennecke u. Prof. Dr.
+            Hansjürgen Tuengerthal</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 72  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">158</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung / BD 04.2015
+              / 01.04.2015 / S. 21-22</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Empörung bei der Generalanwältin Sharpston wegen der Nichtvorlage nach Art. 267 Abs. 3 AEUV eines Verfahrens
+          des letztinstanzlichen österreichischen Gerichts an den EuGH, Rechtssache C-586/13</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            u. Janine Geißer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 73  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">157</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung / BD 04.2015
+              / 01.04.2015 / S. 14-15</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Mindestlöhne und Geltungsbereiche für das Gebäudereinigerhandwerk Die Mindestlöhne im
+          Gebäudereinigerhandwerk</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by RA Michael Rothenhöfer u. RA
+            Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 74  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">156</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung / BD 02.2015
+              / 01.02.2015 / S. 7-8</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Mindestlöhne und Geltungsbereiche für das Elektrohandwerk sowie das Maler- und Lackiererhandwerk- Die
+          Mindestlöhne im Baunebengewerbe</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by RA Michael Rothenhöfer u. RA
+            Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 75  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">155</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung / BD 03.2015
+              / 01.03.2015 / S. 6-8</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          EuGH zu den Lohnbestandteilen des Mindestlohns nach der Entsenderichtlinie 96/71/EG</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            u. Janine Geißer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 76  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">154</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung / BD 02.2015
+              / 01.02.2015 / S. 21-23</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Rechtlich bedenkliche Mindestlohnjagd auf den Transitverkehr durch Deutschland</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by RA Michael Rothenhöfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 77  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">153</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung / BD 02.2015
+              / 01.02.2015 / S. 7-8</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Die Änderungen in § 8 Abs. 3 AEntG und die Auswirkung auf die Zeitarbeitsbranche – Die Änderungen im
+          Überblick</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by RA Michael Rothenhöfer u. RA
+            Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 78  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">152</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Betriebs-Berater / BB 4.2015 /
+              19.01.2015 / S. 1</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Arbeitnehmerüberlassung – 18 Monate „vorübergehend“ geklärt – Generalanwalt verlangt flexible Regelungen für
+          die Zeitarbeitsbranche</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 79  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">151</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">NZWiSt / 11/2014 / S.412-416</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Zur seltsamen Vernachlässigung der Rechtsfolgen des § 2 Abs. 3 StGB im Rahmen der Entwicklung der
+          Arbeitnehmerfreizügigkeit im EU-Recht</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen
+            Tuengerthal/Janine Geißer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 80  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">150</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Wistra 11/2014 S. 417-421</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Die Strafbarkeit von Altfällen illegaler Beschäftigung</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            u. RA Michael Rothenhöfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 81  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">149</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Betriebsberater 47/2014 S. 2875-2876
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Anspruch der Sozialversicherungsträger in Deutschland bei der Fiktion eines Arbeitsverhältnisses – Zugleich
+          Besprechung des Urteils des LSG Rheinland -Pfalz vom 28.5.2014 – L 4 R 148/13 –</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            und Janine Geißer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 82  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">148</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">econo 4/2014 am 17.10.2014</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Neuregelung in Sicht</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 83  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">147</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin 07-08/2014</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Aufsatzreihe Mindestlohn: Teil 3 Sanktionsbewehrte Pflichten nach AEntG</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 84  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">146</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung // BD
+              08/2014</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Das OLG Bamberg im Beschluss vom 22.10.2009 „Allein auf weiter Flur“</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            und Janine Geißer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 85  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">145</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Der Steuerberater // Heft 7 – StB 07.
+              2014 // S.1</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Abgrenzung von Werkverträgen und Arbeitnehmerüberlassung durch den Zoll</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 86  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">144</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Betriebs-Berater // BB 31/2014</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Fremdpersonaleinsatz: Man merkt die Absicht, und man ist verstimmt!</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            und Janine Geißer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 87  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">143</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin 06/2014</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Aufsatzreihe Mindestlohn: Teil 2 Vertragliche Auswirkungen für die Parteien</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Christian Andorfer u. Michael
+            Rothenhöfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 88  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">142</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischwirtschaft 06/2014</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Rückgang der Flexibilität zu befürchten – Auswirkungen des Koalitionsvertrags auf die Fleischwirtschaft</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            und Mathias Hick</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 89  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">141</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung // BD
+              05/2014</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Zu den Vorstellungen der SPD zur Eingrenzung von Werkverträgen</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            und Mathias Hick</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 90  -->
+      <!-- block 91  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">136</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">EWS 1/2014 // 18.02.2014</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          „Missbrauch von Werkverträgen“: Rechnung ohne den Wirt!</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal,
+            Janine Geißer und Alexander Seeger</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 92  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">135</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Steuerberater Magazin 05/2014</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          „ Alle, die sich mit solchen Fällen befassen, sind sehr froh, dass es den EuGH gibt“ – Interview mit Prof.
+          Dr. Tuengerthal</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 93  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">134</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin 05/2014</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Aufsatzreihe Mindestlohn: Teil 1 Mindestlohn für die Fleischwirtschaft: Was kommt auf uns zu?</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            und Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 94  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">132</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Die Wandlung der Rechtsprechung bei der Abgrenzung von Werkverträgen und Arbeitnehmerüberassung – Teil 10
+        </p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            u. Michael Rothenhöfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 95  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">129</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung // BD
+              10/2013 // 28.10.2013</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Die Wandlung der Rechtsprechung bei der Abgrenzung von Werkverträgen und Arbeitnehmerüberlassung – Teil 9
+          Urlaub und Krankheit</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            u. Michael Rothenhöfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 96  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">128</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung // BD 9/2013
+              // 28.09.2013</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Die Wandlung der Rechtsprechung bei der Abgrenzung von Werkverträgen und Arbeitnehmerüberlassung – Teil 8
+          Die Abgrenzung arbeitsbezogener Weisungen</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            u. Michael Rothenhöfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 97  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">125</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung // BD 8/2013
+              // 28.08.2013</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Die Wandlung der Rechtsprechung bei der Abgrenzung von Werkverträgen und Arbeitnehmerüberlassung – Teil 7
+          Regelungen Hygiene, Arbeitsschutz</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            u. Michael Rothenhöfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 98  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">124</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung // BD 7/2013
+              // 28.07.2013</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Die Wandlung der Rechtsprechung bei der Abgrenzung von Werkverträgen und Arbeitnehmerüberlassung – Teil 6
+          Einbindung in Produktionsablauf</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            u. Michael Rothenhöfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 99  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">122</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung // BD 6/2013
+              // 28.06.2013</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Die Wandlung der Rechtsprechung bei der Abgrenzung von Werkverträgen and Arbeitnehmerüberlassung – Teil 5
+          Stamm- und Fremdpersonal</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            u. Michael Rothenhöfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 101  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">119</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung // BD 4/2013
+              // 28.04.2013</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Die Wandlung der Rechtsprechung bei der Abgrenzung von Werkverträgen und Arbeitnehmerüberlassung – Teil 3
+          Zur zurückzuweisenden Forderung des Einsatzes von Werkzeug</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            u. Michael Rothenhöfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 102  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">118</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung // BD 3/2013
+              // 28.03.2013</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Die Wandlung der Rechtsprechung bei der Abgrenzung von Werkverträgen und Arbeitnehmerüberlassung – Teil 2
+          Vergütung werkvertaglicher Leistungen</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            u. Michael Rothenhöfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 103  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">117</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Der Mittelstand // Heft 3/2013</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Zwei Fliegen mit einer Klappe – Warum Zeitarbeit für den Mittelstand sinnvoll ist</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            u. Michael Rothenhöfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 104  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">116</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung // BD 2/2013
+              // 27.02.2013</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Die Wandlung der Rechtsprechung bei der Abgrenzung von Werkverträgen und Arbeitnehmerüberlassung – Teil 1
+          Allgemeines</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            u. Michael Rothenhöfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 105  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">114</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Betriebs-Berater // BB 1/2 2013 //
+              07.01.2013</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Eine Lanze für den Werkvertrag</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            u. Michael Rothenhöfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 106  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">112</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung BD 11/2012
+              // 23.11.2012</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Die vielfach bewusst übersehene Bedeutung der EuGH-Entscheidung Herbosch Kiere</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            u. Janine Geißer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 107  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">110</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Lebensmittelzeitung LZ 6 // 10.02.2012
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Verdacht gegen Netto und Kaufland – Vorgehen des Zolls gegen Lebensmittelunternehmen ist bedenklich</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 108  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">111</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin // 3/2012 //06.02.2012
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Zur Beurteilung des bedenklichen Einsatzes von mehr als 450 Zollbeamten</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            und RA Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 109  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">109</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Blickpunkt Dienstleistung BD 2 //
+              23.02.2012</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Zum bedenklichen Vorgehen des Zoll gegen Lebensmittelunternehmen</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+            u. RA Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 110  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">107</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Betriebs-Berater // BB 47.2011 //
+              21.11.2011</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Die CGZP-Entscheidungen und die angeblichen Ansprüche der Sozialversicherung</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by RA Prof. Dr. Hansjürgen
+            Tuengerthal u. RA Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+
+      <!-- block 111  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">eigene Publikation // 21.01.2011
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Eine tickende Zeitbombe</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerhtal
+            u. RA Christian Andorfer</p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 112  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin 11/2010</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          In Sachen in- und ausländische Werkunternehmen in deutschen Schlacht- und Zerlegebetrieben – Zum Vorgehen
+          des Zolls</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 113  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">103</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin 05/2009</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Der BGH zu Werkvertragsvereinbarungen – Zwei äußerst belastende Urteile in Strafsachen</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 114  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin 01-02/2009</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Behandlung von Altfällen Behandlung von Werkverträge Ost und die Bedeutung der Arbeitsgemeinschaft
+          „Werkverträge Ost“</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 115  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin 09/2007</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Die deutsche Fleischwirtschaft im Visier des Zolls</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 116  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischerei Technik 5-6/2007 S. 106
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Zugewiesene Arbeitstische als Betriebsstätten für ein Werkunternehmen?</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 117  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Die Fleischerei 05/2007 S. 139th
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          ArbeitnehmerÜberlassung deutscher Leiharbeiter</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 118  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin 01-02/2007</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Das unerträgliche Gefühl des Ausgeliefertseins – Zur Rolle des deutschen Zolls</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 119  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Die Fleischerei 12/2006 S. 78</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          „Werkverträge Ost“ in der Diskussion</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 120  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin 10/2006</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Werkvertragsunternehmen in der Fleischwirtschaft: Politische Hintergründe</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 121  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischerei 06/2006</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Urteil des EuGH schafft Klarheit</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 122  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin 05/2006</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Outsourcing – Wird die jahrzehntelange Praxis der deutschen Fleischwirtschaft in Frage gestellt?</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 123  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin 04/2006</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Angebliche Rechtsprobleme beim Einsatz von Werkunternehmen aus Ungarn in Deutschland</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 124  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischerei + Technik 03-04/2006
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Rechtsprobleme beim Einsatz von Unternehmenn aus den neuen Mitgliedstaaten</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 125  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin 01-02/2006</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Zwei Urteile im Zusammenhang mit dem Einsatz von Arbeitnehmern au Drittstaaten</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 126  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Allgemeine Fleischerzeitung 48/2005
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Zu den Problemen ungarischer Untennehmen bei Werkleistungen</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 127  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Vieh- und Fleischhandelszeitung
+              40/2005</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Einsatz von Dienstleistungsunternehmen aus den neuen EU-Staaten!</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 128  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischwirtschaft 05/2005</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Ein Urteil und seine Folgen – Mitarbeiter deutscher Werkunternehmen haben Recht auf Übernahme</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 129  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Lebensmittelzeitung 16/2005</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Begrenzte Dienstleistungsfreiheit – Briefkastenfirma muss Arbeitnehmer für Schlachtung nachweisen</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 130  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin 01-02/2005</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Werkverträge mit Unternehmen aus den neuen EU-Mitgliedstaaten und ihre Folgen</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 131  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin 06/2004 S. 57 ff.
+            </h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Vorsicht bei der Kündigung in Bezug auf die EU-Erweiterung</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 132  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin 10/2002 S. 19</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Vorsicht beim Umgang mit ausländischen Kontingentunternehmen</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 133  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Vieh- und Fleischhandelszeitung v.
+              13.12.2001</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Arbeitnehmereigenschaft von Lohnschlächtern und Zerlegern</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 134  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">afz v. 10.10.2001</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Rechtsprechung weiter uneinheitlich – Arbeitnehmereigenschaft von Lohnschlächter und Zerleger</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 135  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Fleischmagazin 10/2001 S. 17</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Zur Arbeitnehmereigenschaft von Lohnschlächtern und Zerlegern</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 136  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">Die Fleischwirtschaft 05/1996</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Zur Unternehmereigenschaft von Fleischzerlegern – Vorsteuerabzug bei Betrieben der Fleischwarenindustrie
+        </p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+      <!-- block 137  -->
+      <div class="bg-[#1B1B1B] 2xl:rounded-[50px] rounded-[30px] xl:p-10 p-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="2xl:text-7xl lg:text-5xl text-3xl font-bold text-[#757575]">...</h1>
+          </div>
+          <div>
+            <p class="text-[#757575] 2xl:text-sm text-xs font-extrabold uppercase">published in:</p>
+            <h1 class="text-white 2xl:text-[28px] xl:text-xl text-lg uppercase">SVZ, Schlachten und Vermarkten
+              07/1975</h1>
+          </div>
+        </div>
+
+        <p
+          class="2xl:text-[26px] xl:text-lg text-base text-white xl:pt-10 pt-5 2xl:leading-[44px] xl:leading-8 leading-6">
+          Zur rechtlichen Stellung der Lohnschlächtergruppen an öffentlichen Schlachthöfen</p>
+
+        <div class="flex gap-4 xl:pt-28 pt-16">
+          <p class="text-[#F8D100] font-medium italic 2xl:text-[22px] text-base">by Prof. Dr. Hansjürgen Tuengerthal
+          </p>
+          <div>
+            <hr class="border-[#757575]">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer  -->
+  <footer class="bg-[#202020] 2xl:mt-48 lg:mt-20 mt-10">
+    <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 lg:gap-10 gap-5 2xl:px-20 lg:px-10 px-5 2xl:py-20 py-10">
+      <!-- Logo & Contact -->
+      <div>
+        <div class="flex justify-center md:justify-start">
+          <img src="./assets/img/footerlogo.png" alt="AWZ Logo" class="mb-6 w-32">
+        </div>
+        <div class="space-y-2 2xl:pt-10 pt-5">
+
+          <div class="flex items-center gap-5">
+            <div class="flex items-center gap-5">
+              <i class="fa-solid fa-phone-volume bg-[#F8D100] 2xl:p-3 p-2 rounded-md"></i>
+              <p class="text-white text-sm">06221 338630</p>
+            </div>
+
+            <div class="flex items-center gap-5">
+              <i class="fa-solid fa-calendar-week bg-[#F8D100] 2xl:p-3 p-2 rounded-md"></i>
+              <p class="text-white text-sm">Sep 06, 2024</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-5">
+            <i class="fa-solid fa-envelope bg-[#F8D100] 2xl:p-3 p-2 rounded-md"></i>
+            <p class="text-white text-sm uppercase">info@werkvertrag-zeitarbeit.de</p>
+          </div>
+          <div class="flex items-center gap-5">
+            <i class="fa-solid fa-location-dot bg-[#F8D100] 2xl:py-3 2xl:px-[14px] py-2 px-[10px] rounded-md"></i>
+            <p class="text-white text-sm uppercase">Sofienstraße 21, 69115 Heidelberg</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="flex flex-wrap gap-10 2xl:gap-20 pt-5 md:pt-0">
+        <!-- Quick Links -->
+        <div>
+          <h2 class="font-bold mb-4 xl:text-base text-sm text-white ">QUICK LINK</h2>
+          <ul class="space-y-3 text-[#757575] 2xl:text-sm text-xs">
+            <li><a href="./index.html" class="hover:text-white hover:underline">Home</a></li>
+            <li><a href="./Aktuelles.html" class="hover:text-white hover:underline">Aktuelles</a></li>
+            <li><a href="./themenfelder.html" class="hover:text-white hover:underline">Themenfelder</a></li>
+            <li><a href="./seminare.html" class="hover:text-white hover:underline">Seminare</a></li>
+            <li><a href="./Veröffentlichungen.html" class="hover:text-white hover:underline">Veröffentlichungen</a>
+            </li>
+            <li><a href="./impressem.html" class="hover:text-white hover:underline">Impressum</a></li>
+          </ul>
+        </div>
+
+        <!-- Social -->
+        <div>
+          <h2 class="font-bold mb-4 xl:text-base text-sm text-white">FOLGEN SIE UNS</h2>
+          <ul class="space-y-3 text-[#757575] 2xl:text-sm text-xs">
+            <li><a href="#" class="hover:text-white hover:underline">Facebook</a></li>
+            <li><a href="#" class="hover:text-white hover:underline">Twitter</a></li>
+            <li><a href="#" class="hover:text-white hover:underline">LinkedIn</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold mb-4 xl:text-base text-sm text-white">SUPPORT</h3>
+          <ul class="space-y-3 text-[#757575] 2xl:text-sm text-xs">
+            <li><a href="#" class="hover:text-white hover:underline">Kontaktiere uns</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Newsletter -->
+      <div class="pt-5 lg:pt-0">
+        <h1 class="2xl:text-4xl lg:text-2xl text-lg font-bold text-white">
+          Abonnieren Sie unseren Newsletter und bleiben Sie über Seminare und Veranstaltungen informiert.
+
+        </h1>
+        <form class="mt-6 space-y-4">
+          <input type="email" placeholder="E-Mail-Adresse (ohne Punkte dahinter)"
+            class="w-full bg-[#171717] text-[#757575] px-4 py-3 rounded-full outline-none">
+          <div>
+            <button
+              class="bg-white w-full py-2 px-10 text-[#131313] 2xl:text-lg text-sm font-bold rounded-full border-2 border-[#131313] border-dashed uppercase">abonnieren</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="bg-[#171717] text-center text-[#FFFFFF] py-4 md:text-sm text-xs px-5">
+      <p>
+        COPYRIGHT 2025 © ARBEITSGEMEINSCHAFT WERKVERTRÄGE UND ZEITARBEIT
+      </p>
+
+    </div>
+  </footer>
+
+
+  <!--contact popup Modal -->
+  <div id="contactModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 hidden"
+    onclick="closeOnOverlay(event)">
+
+    <!-- Modal Content -->
+    <div class="relative w-[95%] lg:w-[80%] 2xl:w-[70%] max-h-[95vh] overflow-y-auto bg-white 2xl:p-10 md:p-6 p-4 
+              2xl:rounded-[50px] rounded-[30px] shadow-xl" onclick="event.stopPropagation()">
+
+      <!-- Close Button -->
+      <button onclick="closeModal()" class="absolute top-4 right-4 text-[#141414] text-2xl font-bold">
+        &times;
+      </button>
+
+      <!-- Your Section Start -->
+      <section class="2xl:px-10 xl:px-6 lg:px-4 px-2">
+        <div class="flex flex-col lg:flex-row xl:gap-12 gap-5">
+          <div class="lg:w-2/3 w-full">
+            <h2 class="text-[#141414] 2xl:text-[22px] text-base uppercase font-bold">Dienstleistungen</h2>
+            <h1
+              class="text-[#141414] 2xl:text-[56px] lg:text-4xl text-[28px] 2xl:leading-[80px] lg:leading-[65px] leading-[42px] font-bold 2xl:pt-2">
+              Melden Sie sich gerne bei uns! Wir sind da für Sie
+            </h1>
+
+            <div class="flex items-center gap-5 xl:pt-5 pt-3">
+              <i class="fa-solid fa-phone-volume bg-[#F8D100] 2xl:p-3 p-2 rounded-md"></i>
+              <p class="text-[#141414] 2xl:text-xl text-base font-medium">06221 338630</p>
+            </div>
+            <div class="flex items-center gap-5 xl:pt-5 pt-3">
+              <i class="fa-solid fa-envelope bg-[#F8D100] 2xl:p-3 p-2 rounded-md"></i>
+              <p class="text-[#141414] 2xl:text-xl text-base font-medium uppercase">info@werkvertrag-zeitarbeit.de
+              </p>
+            </div>
+            <div class="flex items-center gap-5 xl:pt-5 pt-3">
+              <i class="fa-solid fa-location-dot bg-[#F8D100] 2xl:py-3 2xl:px-[14px] py-2 px-[10px] rounded-md"></i>
+              <p class="text-[#141414] 2xl:text-xl text-base font-medium uppercase">Sofienstraße 21, 69115
+                Heidelberg
+              </p>
+            </div>
+          </div>
+
+          <div class="lg:w-1/3 w-full">
+            <iframe class="w-full 2xl:h-[352px] h-[250px] rounded-[30px]" frameborder="0" scrolling="no"
+              marginheight="0" marginwidth="0"
+              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=de&amp;q=Sofienstraße%2021,%2069115%20Heidelberg,%20Deutschland+(B%C3%9CRO%20HEIDELBERG)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+            </iframe>
+          </div>
+
+        </div>
+
+        <!-- form -->
+        <form action="" class="2xl:pt-14 pt-10">
+          <div class="flex md:flex-row flex-col gap-5">
+            <div class="flex flex-col w-full">
+              <label class="text-[#757575] 2xl:text-lg text-base font-bold pb-2 pl-5">Vorname..</label>
+              <input class="w-full text-[#757575] 2xl:text-xl text-base font-medium py-2 px-5 rounded-full 
+                          bg-[#EDEDED] border border-[#EDEDED]" type="text" placeholder="Geben Sie hier ein">
+            </div>
+
+            <div class="flex flex-col w-full">
+              <label class="text-[#757575] 2xl:text-lg text-base font-bold pb-2 pl-5">Nachname..</label>
+              <input class="w-full text-[#757575] 2xl:text-xl text-base font-medium py-2 px-5 rounded-full 
+                          bg-[#EDEDED] border border-[#EDEDED]" type="text" placeholder="Geben Sie hier ein">
+            </div>
+          </div>
+
+          <div class="flex md:flex-row flex-col gap-5 2xl:pt-8 pt-5">
+            <div class="flex flex-col w-full">
+              <label class="text-[#757575] 2xl:text-lg text-base font-bold pb-2 pl-5">E-Mail-Adresse..</label>
+              <input class="w-full text-[#757575] 2xl:text-xl text-base font-medium py-2 px-5 rounded-full 
+                          bg-[#EDEDED] border border-[#EDEDED]" type="text" placeholder="Geben Sie hier ein">
+            </div>
+
+            <div class="flex flex-col w-full">
+              <label class="text-[#757575] 2xl:text-lg text-base font-bold pb-2 pl-5">Telefonnummer</label>
+              <input class="w-full text-[#757575] 2xl:text-xl text-base font-medium py-2 px-5 rounded-full 
+                          bg-[#EDEDED] border border-[#EDEDED]" type="text" placeholder="Geben Sie hier ein">
+            </div>
+          </div>
+
+          <div class="flex flex-col w-full 2xl:pt-8 pt-5">
+            <label class="text-[#757575] 2xl:text-lg text-base font-bold pb-2 pl-5">Nachricht..</label>
+            <textarea class="w-full text-[#757575] 2xl:text-xl text-base font-medium py-2 px-5 rounded-xl 
+                           bg-[#EDEDED] border border-[#EDEDED]" rows="6" placeholder="Geben Sie hier ein"></textarea>
+          </div>
+
+          <div class="pt-10 2xl:pt-14">
+            <button
+              class="bg-[#131313] py-3 px-20 text-white 2xl:text-lg text-sm font-bold rounded-full border-2 border-white border-dashed uppercase">Absenden</button>
+          </div>
+        </form>
+      </section>
+      <!-- Your Section End -->
     </div>
   </div>
 
-   <!-- Copyright -->
-  <div class="bg-[#171717] text-center text-[#FFFFFF] py-4 md:text-sm text-xs px-5">
-    <p>
-       COPYRIGHT 2025 © ARBEITSGEMEINSCHAFT WERKVERTRÄGE UND ZEITARBEIT
-    </p>
-   
-  </div>
-</footer>
-
-
-<!--contact popup Modal -->
-<div id="contactModal" 
-     class="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 hidden"
-     onclick="closeOnOverlay(event)">
-  
-  <!-- Modal Content -->
-  <div class="relative w-[95%] lg:w-[80%] 2xl:w-[70%] max-h-[95vh] overflow-y-auto bg-white 2xl:p-10 md:p-6 p-4 
-              2xl:rounded-[50px] rounded-[30px] shadow-xl"
-       onclick="event.stopPropagation()">
-    
-    <!-- Close Button -->
-    <button onclick="closeModal()" 
-            class="absolute top-4 right-4 text-[#141414] text-2xl font-bold">
-      &times;
-    </button>
-
-    <!-- Your Section Start -->
-    <section class="2xl:px-10 xl:px-6 lg:px-4 px-2">
-      <div class="flex flex-col lg:flex-row xl:gap-12 gap-5">
-        <div class="lg:w-2/3 w-full">
-          <h2 class="text-[#141414] 2xl:text-[22px] text-base uppercase font-bold">Dienstleistungen</h2>
-          <h1 class="text-[#141414] 2xl:text-[56px] lg:text-4xl text-[28px] 2xl:leading-[80px] lg:leading-[65px] leading-[42px] font-bold 2xl:pt-2">
-            Melden Sie sich gerne bei uns! Wir sind da für Sie
-          </h1>
-
-          <div class="flex items-center gap-5 xl:pt-5 pt-3">
-            <i class="fa-solid fa-phone-volume bg-[#F8D100] 2xl:p-3 p-2 rounded-md"></i>
-            <p class="text-[#141414] 2xl:text-xl text-base font-medium">06221 338630</p>
-          </div>
-          <div class="flex items-center gap-5 xl:pt-5 pt-3">
-            <i class="fa-solid fa-envelope bg-[#F8D100] 2xl:p-3 p-2 rounded-md"></i>
-            <p class="text-[#141414] 2xl:text-xl text-base font-medium uppercase">info@werkvertrag-zeitarbeit.de</p>
-          </div>
-          <div class="flex items-center gap-5 xl:pt-5 pt-3">
-            <i class="fa-solid fa-location-dot bg-[#F8D100] 2xl:py-3 2xl:px-[14px] py-2 px-[10px] rounded-md"></i>
-            <p class="text-[#141414] 2xl:text-xl text-base font-medium uppercase">Sofienstraße 21, 69115 Heidelberg</p>
-          </div>
-        </div>
-
-        <div class="lg:w-1/3 w-full">
-   <iframe 
-    class="w-full 2xl:h-[352px] h-[250px] rounded-[30px]" 
-    frameborder="0" 
-    scrolling="no" 
-    marginheight="0" 
-    marginwidth="0" 
-    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=de&amp;q=Sofienstraße%2021,%2069115%20Heidelberg,%20Deutschland+(B%C3%9CRO%20HEIDELBERG)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-</iframe>
-</div>
-
-      </div>
-
-      <!-- form -->
-      <form action="" class="2xl:pt-14 pt-10">
-        <div class="flex md:flex-row flex-col gap-5">
-          <div class="flex flex-col w-full">
-            <label class="text-[#757575] 2xl:text-lg text-base font-bold pb-2 pl-5">Vorname..</label>
-            <input class="w-full text-[#757575] 2xl:text-xl text-base font-medium py-2 px-5 rounded-full 
-                          bg-[#EDEDED] border border-[#EDEDED]" 
-                   type="text" placeholder="Geben Sie hier ein">
-          </div>
-
-          <div class="flex flex-col w-full">
-            <label class="text-[#757575] 2xl:text-lg text-base font-bold pb-2 pl-5">Nachname..</label>
-            <input class="w-full text-[#757575] 2xl:text-xl text-base font-medium py-2 px-5 rounded-full 
-                          bg-[#EDEDED] border border-[#EDEDED]" 
-                   type="text" placeholder="Geben Sie hier ein">
-          </div>
-        </div>
-
-        <div class="flex md:flex-row flex-col gap-5 2xl:pt-8 pt-5">
-          <div class="flex flex-col w-full">
-            <label class="text-[#757575] 2xl:text-lg text-base font-bold pb-2 pl-5">E-Mail-Adresse..</label>
-            <input class="w-full text-[#757575] 2xl:text-xl text-base font-medium py-2 px-5 rounded-full 
-                          bg-[#EDEDED] border border-[#EDEDED]" 
-                   type="text" placeholder="Geben Sie hier ein">
-          </div>
-
-          <div class="flex flex-col w-full">
-            <label class="text-[#757575] 2xl:text-lg text-base font-bold pb-2 pl-5">Telefonnummer</label>
-            <input class="w-full text-[#757575] 2xl:text-xl text-base font-medium py-2 px-5 rounded-full 
-                          bg-[#EDEDED] border border-[#EDEDED]" 
-                   type="text" placeholder="Geben Sie hier ein">
-          </div>
-        </div>
-
-        <div class="flex flex-col w-full 2xl:pt-8 pt-5">
-          <label class="text-[#757575] 2xl:text-lg text-base font-bold pb-2 pl-5">Nachricht..</label>
-          <textarea class="w-full text-[#757575] 2xl:text-xl text-base font-medium py-2 px-5 rounded-xl 
-                           bg-[#EDEDED] border border-[#EDEDED]" 
-                    rows="6" placeholder="Geben Sie hier ein"></textarea>
-        </div>
-
-        <div class="pt-10 2xl:pt-14">
-        <button class="bg-[#131313] py-3 px-20 text-white 2xl:text-lg text-sm font-bold rounded-full border-2 border-white border-dashed uppercase">Absenden</button>
-      </div>
-      </form>
-    </section>
-    <!-- Your Section End -->
-  </div>
-</div>
-
-<!-- contact popup js  -->
-<script>
-  function openModal() {
-    document.getElementById("contactModal").classList.remove("hidden");
-    document.body.classList.add("overflow-hidden"); // disable background scroll
-  }
-  function closeModal() {
-    document.getElementById("contactModal").classList.add("hidden");
-    document.body.classList.remove("overflow-hidden"); // enable background scroll
-  }
-  function closeOnOverlay(e) {
-    if (e.target.id === "contactModal") {
-      closeModal();
+  <!-- contact popup js  -->
+  <script>
+    function openModal() {
+      document.getElementById("contactModal").classList.remove("hidden");
+      document.body.classList.add("overflow-hidden"); // disable background scroll
     }
-  }
-</script>
-
-<!--navbar JS -->
-<script>
-  const menuBtn = document.getElementById('menu-btn');
-  const mobileMenu = document.getElementById('mobile-menu');
-  const lines = menuBtn.querySelectorAll('span');
-  const navbarTop = document.getElementById('navbar-top'); // top logo + toggle container
-  let isOpen = false;
-
-  // Mobile menu toggle
-  menuBtn.addEventListener('click', () => {
-    isOpen = !isOpen;
-    mobileMenu.classList.toggle('hidden');
-
-    // Animate hamburger lines
-    if (isOpen) {
-      lines[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
-      lines[1].style.opacity = '0';
-      lines[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
-
-      // Add black background only on mobile view
-      if (window.innerWidth < 1024) {
-        navbarTop.classList.add('bg-[#171717]');
-      }
-    } else {
-      lines[0].style.transform = 'rotate(0) translate(0, 0)';
-      lines[1].style.opacity = '1';
-      lines[2].style.transform = 'rotate(0) translate(0, 0)';
-
-      // Remove black background when closing menu
-      if (window.innerWidth < 1024) {
-        navbarTop.classList.remove('bg-[#171717]');
+    function closeModal() {
+      document.getElementById("contactModal").classList.add("hidden");
+      document.body.classList.remove("overflow-hidden"); // enable background scroll
+    }
+    function closeOnOverlay(e) {
+      if (e.target.id === "contactModal") {
+        closeModal();
       }
     }
-  });
+  </script>
 
-  // Mobile dropdown toggle
-  function toggleDropdown(id, btn) {
-    const dropdown = document.getElementById(id);
-    const arrow = btn.querySelector('span');
-    dropdown.classList.toggle('hidden');
-    arrow.style.transform = dropdown.classList.contains('hidden') ? 'rotate(0deg)' : 'rotate(180deg)';
-  }
-</script>
+  <!--navbar JS -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const lines = menuBtn.querySelectorAll('span');
+    const navbarTop = document.getElementById('navbar-top'); // top logo + toggle container
+    let isOpen = false;
+
+    // Mobile menu toggle
+    menuBtn.addEventListener('click', () => {
+      isOpen = !isOpen;
+      mobileMenu.classList.toggle('hidden');
+
+      // Animate hamburger lines
+      if (isOpen) {
+        lines[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+        lines[1].style.opacity = '0';
+        lines[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
+
+        // Add black background only on mobile view
+        if (window.innerWidth < 1024) {
+          navbarTop.classList.add('bg-[#171717]');
+        }
+      } else {
+        lines[0].style.transform = 'rotate(0) translate(0, 0)';
+        lines[1].style.opacity = '1';
+        lines[2].style.transform = 'rotate(0) translate(0, 0)';
+
+        // Remove black background when closing menu
+        if (window.innerWidth < 1024) {
+          navbarTop.classList.remove('bg-[#171717]');
+        }
+      }
+    });
+
+    // Mobile dropdown toggle
+    function toggleDropdown(id, btn) {
+      const dropdown = document.getElementById(id);
+      const arrow = btn.querySelector('span');
+      dropdown.classList.toggle('hidden');
+      arrow.style.transform = dropdown.classList.contains('hidden') ? 'rotate(0deg)' : 'rotate(180deg)';
+    }
+  </script>
 
 
-<script src="https://kit.fontawesome.com/a2ada4947c.js" crossorigin="anonymous"></script> 
+  <script src="https://kit.fontawesome.com/a2ada4947c.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
